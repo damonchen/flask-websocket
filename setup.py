@@ -1,30 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-    setup.py
+    Flask-WebSocket
     ~~~~~~~~~~~~~~~~~~~~
 
-    :copyright: (c) 2017 by Damon Chen.
-    :license: BSD, see LICENSE for more details.
+    copyright: (c) 2017 by Damon Chen.
+    license: BSD, see LICENSE for more details.
+
+    simple websocket for Flask
 """
 
-"""
-Flask-WebSocket
--------------
 
-simple websocket for Flask
-"""
 from setuptools import setup
-
+description = open('README').read()
 
 setup(
     name='Flask-WebSocket',
-    version='1.0',
+    version='0.1',
     url='http://github.com/damonchen/flask-websocket/',
     license='BSD',
     author='Damon Chen',
     author_email='netubu@gmail.com',
     description='simple websocket for Flask',
-    long_description=__doc__,
+    long_description=description,
     py_modules=['flask_websocket'],
     # if you would be using a package instead use packages instead
     # of py_modules:

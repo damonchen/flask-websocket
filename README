@@ -1,5 +1,9 @@
 # Flask-WebSocket
 
+
+copyright: (c) 2017 by Damon Chen.
+license: BSD, see LICENSE for more details.
+
 simple websocket for Flask
 
 ## Install
