@@ -8,7 +8,8 @@ simple websocket for Flask
 
 ## Install
 
-pip install flask-websocket
+git clone https://github.com/damonchen/flask-websocket/
+
 
 
 ## Usage
