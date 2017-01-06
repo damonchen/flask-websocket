@@ -11,7 +11,7 @@
 
 
 from setuptools import setup
-description = open('README').read()
+description = open('README.md').read()
 
 setup(
     name='Flask-WebSocket',
